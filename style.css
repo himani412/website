@@ -1,36 +1,108 @@
 body{
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #eb346e;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%,#27ae60 100% );
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+   
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif; 
+    font-weight: 300;
+}
+#name { 
+    font-size: 30px;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+#bio {
+    padding: 50px;
     text-align: center;
 }
-h1{
-    font-size: 40px;
-    font-family: cursive;
-    font-weight: 300;
-        
-}
-#apps{
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
-}
-#games{
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
-}
-#chatbot{
-    width: 100%;
-    height: 800px;
-    background-color: aliceblue;
-}
-img{
-    transition: transform .2s;
-}
-img:hover{
-    transform: scale(0.9)
-}
-.line{
+.line {
     height: 6px;
-    background-color: aliceblue;
+    background-color: #000;
     width: 70px;
     margin: 8px auto;
+}
+p { 
+    max-width: 450px; 
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    width: 100%;
+    margin-top: 0px;
+    background: white;
+   list-style: none;
+   font-family: 'Dancing Script', cursive;
+   position: fixed;
+    top: 0px;
+    z-index:10;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a{
+text-decoration: none;
+    color: aquamarine;
+    text-shadow: 2px 2px gainsboro;
+}
+.article:hover{
+    color: blue;
+}
+html{
+    hover:smooth;
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: cornflowerblue !iimportant;
+}
+.contact{
+    background: firebrick;
+}
+.contact_1 a{
+  color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
 }
