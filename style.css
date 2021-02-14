@@ -1,7 +1,101 @@
 body {
     text-align: center;
-    background: linear-gradient(#fc0398 20%, #fc0362 30%, #fc0335 40%, #fcfc03 100%)
 }
+
+#welcome {
+
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
 h1 {
-    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 150px;
+}
+
+p {
+    font-size: 23px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    display: inline;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0x;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    text-align: center;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+}
+
+#my inspiration {
+    background: linear-gradient(red 0%, yellow 100%);
+}
+
+#picture {
+    transition: transform.2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#contact {
+    background: skyblue;
+}
+
+.contact_1 h2 {
+    display: inline;
+}
+
+#contact iframe {
+    width: 100%
+}
+
+h5 {
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+
+#about {
+    background: linear-gradient(blue 0%, pink 100%);
+
 }
