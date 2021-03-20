@@ -1,64 +1,52 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
 
+</head>
 <body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	List of the students in my class
+</h3>
 
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <title>my school website</title>
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+<div id="rows">
+<span>1</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_1">
+<br>
 
-    </head>
+<span>2</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_2">
+<br>
 
-    <body>
-        <nav class="navbar-inverse my_nav_bar">
-            <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="#">Himani Raghav</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
+<span>3</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_3">
+<br>
 
-                    <li class="links"><a href="#welcome">NIRMALA CONVENT SCHOOL</a></li>
-                    <li class="links"><a href="#videos">Campus life</a></li>
-                    <li class="links"><a href="#work">Achievements</a></li>
-                    <li class="links"><a href="#writings">What’s New</a></li>
-                    <li class="links"><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="announcement">
-            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">*** Feel free to ask queries on school_nirmalabsr@yahoo.com</marquee>
-        </div>
-        <iframe width="1300" height="500" src="https://www.youtube.com/embed/kkEFCBBm2xE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="container">
-            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12 id=" contact us">
-                <h2 class="text-capatilize">Contact us</h2>
-            </div>
-            <div id="map" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14038.484585428734!2d77.851404!3d28.4005086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f8ef59a21cbaf3f!2sNirmala%20Convent%20School!5e0!3m2!1sen!2sin!4v1616231707545!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-            </div>
-            <div id="details">
-                <h3>Principal name:</h3>
-                <h4>st.Daisy</h4>
-            </div>
-            <div class="contact-1">
-                <a href="mailto:school_nirmalabsr@yahoo.com?subject=hi">
-                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school_nirmalabsr@yahoo.com </h5>
-            </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-    </body>
+<span>4</span>
+<input type="text" placeholder="Name of the Student" id="name_of_the_student_4">
+</div>
 
+<button onclick="submit()" id="submit_button">
+	Submit
+</button>
+
+<div id="display_name_with_commas">
+</div>
+
+<hr>
+
+<div id="display_name_without_commas">
+</div>
+
+
+<button onclick="sorting()" id="sort_button">
+	Sort
+</button>
+</center>
+
+</script>
+</body>
 </html>
