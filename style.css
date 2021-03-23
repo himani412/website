@@ -29,3 +29,10 @@ row::after{
 .travel mainDiv h5,.travel mainDiv p{
     margin-left: 20px;
 }
+.environment_li{
+    margin-top: 13px;
+}
+.environment_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px
+}
