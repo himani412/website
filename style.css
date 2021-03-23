@@ -7,4 +7,25 @@
 input {
     background: grey;
 }
-
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.travel mainDiv img{
+    width: 100%;
+    height: 300px;
+        
+}
+.travel mainDiv hr{
+    width: 100%;
+}
+.travel mainDiv h5,.travel mainDiv p{
+    margin-left: 20px;
+}
