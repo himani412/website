@@ -1,78 +1,41 @@
-body {
-    text-align: center;
+.body_background 
+{
+    background-image: url("avenger_bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
 }
 
-#welcome {
-
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+h2
+{
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+ }
+h3
+{
+	display: inline-block;
 }
-
-h1 {
-    text-shadow: 2px 2px #F8BBDO;
-    font-size: 40px;
-    font-family: 'Pacifico', cursive;
+span
+{
+	color: black;	
 }
-
-h2 {
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
-}
-
-#bio {
-    padding: 20px;
-    font-size: 18;
-    text-align: center;
-}
-
-#drawing {
-    border-radius: 50%;
-    margin-bottom: 50px;
-    width: 150px;
-}
-
-p {
-    font-size: 23px;
-    font-family: 'Pacifico', cursive;
-}
-
-.menu {
-    display: inline;
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    right: 30px;
-    top: 10px;
-    z-index: 10;
-    cursor: pointer;
-}
-
-.links {
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
     float: left;
-    color: black;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-bottom: 5px;
-    padding-right: 9px;
-    font-family: fantasy;
-    font-size: 20px;
+    border-radius: 10px;
 }
-
-.links:hover {
-    background-color: dodgerblue;
-}
-
-h3 {
-    font-size: 35px;
-    font-family: 'Pacifico', cursive;
-    text-decoration: underline;
-}
-
-h4 {
-    font-size: 35px;
-    font-family: 'Pacifico', cursive;
-    text-decoration: underline;
-}
-
-#favourite drawings {
-    background: linear-gradient(#ed2fb7 0%, #ed2f4c 100%);
+#head_info
+{
+	width: 1000px;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
