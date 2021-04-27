@@ -1,6 +1,6 @@
 .body_background 
 {
-    background-image: url("avenger_bg.jpg");
+    background-image: url("https://i.ytimg.com/vi/Dg0IjOzopYU/maxresdefault.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -35,7 +35,7 @@ a
 }
 #head_info
 {
-	width: 1000px;
+	width: 600px;
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
