@@ -1,36 +1,41 @@
-body
+.body_background 
 {
-	background: rgb(253, 0, 13);
+    background-image: url("avenger_bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
 }
 
-	.logindiv1 , .logindiv2
-	{
-		background: white;
-		padding: 10px;
-		float: none;
-		border-radius: 15px;
-	}
-
-
-#player1_name , #player2_name
+h2
+{
+	border-radius: 10px;
+	width: 200px;
+	padding: 5px;
+ }
+h3
 {
 	display: inline-block;
-	margin-left: 20px;
 }
-#word
+span
 {
-	width: 60%;
+	color: black;	
 }
-#word_display
+a
 {
-	letter-spacing: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+    float: left;
+    border-radius: 10px;
 }
-#output
+#head_info
 {
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+	width: 1000px;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
