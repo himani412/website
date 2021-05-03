@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>C85</title>
+	<title>Math Quiz</title>
 
-<link rel="stylesheet" href="style.css">
-
-<script src="fabric.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<body class="body_background">
+<link rel="stylesheet" type="text/css" href="style.css">
 
+<script src="main.js"></script>
+</head>
+<body>
 	<center>
+		<h1>Math Quiz</h1>
+		<div class="col-lg-4 col-sm-8 col-xs-11 logindiv1">
+			<h3 >Player 1 Login for the Game</h3>
+			<label>User Name : </label>
+			<input type="text" id="player1input" class="form-control" placeholder="Player 1 Name">
+			<br>
 
-	<h2 class="btn-primary">SUPERHERO</h2>
+		</div>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-11 logindiv2">
+			<h3 >Player 2 Login for the Game</h3>
+			<label>User Name : </label>
+			<input type="text" id="player2input" class="form-control" placeholder="Player 2 Name">
+			<br>
 
-	<div id="head_info" class="btn-danger">
-		<h3>Current Width  = <span id="current_width">30</span></h3>
-		<h3>Current Height  =<span id="current_height">30</span> </h3>
-	</div>
-     <canvas Width="800" Height="600" id="myCanvas"></canvas>
+		</div>
+		<br>
+				<button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+
+		
 	</center>
-	<script src="main.js"></script>
+
 </body>
 </html>
