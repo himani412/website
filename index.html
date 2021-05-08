@@ -1,40 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Math Quiz</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lets Chat</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-
-<script src="main.js"></script>
+<script src="Chat login.js"></script>
 </head>
-<body>
-	<center>
-		<h1>Math Quiz</h1>
-		<div class="col-lg-4 col-sm-8 col-xs-11 logindiv1">
-			<h3 >Player 1 Login for the Game</h3>
-			<label>User Name : </label>
-			<input type="text" id="player1input" class="form-control" placeholder="Player 1 Name">
-			<br>
-
-		</div>
-		<br>
-		<div class="col-lg-4 col-sm-8 col-xs-11 logindiv2">
-			<h3 >Player 2 Login for the Game</h3>
-			<label>User Name : </label>
-			<input type="text" id="player2input" class="form-control" placeholder="Player 2 Name">
-			<br>
-
-		</div>
-		<br>
-				<button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
-
-		
-	</center>
-
+<body background="login.jpg">
+<center>
+	<h1 class="header">	
+		Let's Chat	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="icons8-chat (1).gif" class="logo">  
+		<h2></h2>
+	  <div class="form-group">
+				<label >User Name:</label>
+				<input type="text" id="username" class="form-control" placeholder="User Name">
+				<br>
+		<button id="loginbutton" class="btn btn-primary" onclick="addUser()" >Log in</button>
+		<br><br>
+	</div>
+	</div>
+</center>
 </body>
 </html>
