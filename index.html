@@ -1,33 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Lets Chat</title>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="Chat login.js"></script>
-</head>
-<body background="login.jpg">
-<center>
-	<h1 class="header">	
-		Let's Chat	<sup>
-	<img src="m2.png">
-	</sup>
-</h1>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
-	<img src="icons8-chat (1).gif" class="logo">  
-		<h2></h2>
-	  <div class="form-group">
-				<label >User Name:</label>
-				<input type="text" id="username" class="form-control" placeholder="User Name">
-				<br>
-		<button id="loginbutton" class="btn btn-primary" onclick="addUser()" >Log in</button>
-		<br><br>
-	</div>
-	</div>
-</center>
-</body>
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<div class="col-xs-12 header_div">
+  <h2>Image Identification APP
+  <img src="logo.gif">
+</h2>
+</div>
+
+<div class="col-sm-6 col-xs-12 main_div">
+  <label>Webcam View - </label>
+  <div id="camera">
+
+  </div>
+  <button onclick="takesnapshot();" class="btn btn-info" >Capture Image</button>
+</div>
+<div class="col-sm-6 col-xs-12 main_div">
+  <label>Snapshot - </label>
+  <div id="result">
+  </div>
+  <button onclick="check();" class="btn btn-success" >Identify Image</button>
+
+</div>
+    </center>
+<div class="col-xs-12 footer_div">
+  <h4 class="col-sm-6 col-xs-12">
+    <img src="blub.gif">
+    <span id="objectname"></span>
+  </h4>
+</div>
+<div class="copy_right_footer">
+  Developed By - Himani Raghav
+</div>
+    
+<script src="main.js"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+ 
+
