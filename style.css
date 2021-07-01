@@ -15,3 +15,22 @@
 .heading_div2{
     font-size: 19px;
 }
+.resultparatag{
+    box-shadow: 5px 5px 5px skyblue;
+    font-size: 20px;
+}
+.copyrightfooter{
+    position: fixed;
+    color: slateblue;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px skyblue;
+    margin-top: 150px;
+}
